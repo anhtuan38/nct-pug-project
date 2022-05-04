@@ -33,6 +33,7 @@
       width: 100%;
       :last-child {
         margin-right: 0;
+        justify-content:center;
       }
     }
   }
@@ -94,4 +95,13 @@
     }
   }
 
+  .copyright {
+
+    &__content {
+      @include respond-to(desktop-and-down) {
+        flex-direction: column !important;
+        justify-content: center;
+      }
+    }
+  }
 }

@@ -30,7 +30,9 @@
 
   .text-gray {
     @include description();
-    font-size: $f-size11;
+    @include respond-to(desktop-and-down) {
+      font-size: $f-size15;
+    }
   }
 
   .copyright {

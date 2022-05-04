@@ -11,8 +11,8 @@ body {
   margin: 0 auto;
 }
 
-.btn {
-  outline: none !important;
+.navbar-toggler:focus{
+  box-shadow: none !important;
 }
 
 .bg-gray {
