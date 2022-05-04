@@ -1,0 +1,97 @@
+.header {
+
+  &__upgrade-icon {
+    @include respond-to(desktop-and-down) {
+      display: none;
+    }
+  }
+
+  input {
+    @include respond-to(desktop-and-down) {
+     width: 100%;
+     text-align: center;
+    }
+  }
+
+  .btn-login {
+
+    @include respond-to(desktop-and-down) {
+      margin-top: 1rem;
+      justify-content: center;
+    }
+  }
+}
+
+
+.main-container {
+
+  @include respond-to(desktop-and-down) {
+    flex-direction: column;
+  }
+  .box-left {
+    @include respond-to(desktop-and-down) {
+      width: 100%;
+      :last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .box-right {
+    @include respond-to(desktop-and-down) {
+      width: 100%;
+    }
+
+    .nation {
+      @include respond-to(largedesktop-and-down) {
+        font-size: $f-size13;
+        padding: 0.5rem;
+      }
+      @include respond-to(largedesktop-and-down) {
+        font-size: $f-size15;
+        padding: 0.5rem;
+      }
+    }
+  }
+  .list-music li {
+    @include respond-to(desktop-and-down) {
+      width: 100%;
+      margin-right: 0 !important;
+    }
+  }
+
+}
+
+.footer {
+
+  .footer__cooperation {
+
+    .partner {
+
+      @include respond-to(desktop-and-down) {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+
+  .navigation {
+    @include respond-to(desktop-and-down) {
+      width: 100% !important;
+    }
+  }
+  .footer-navigate {
+    @include respond-to(desktop-and-down) {
+      width: 100% !important;
+      flex-direction: column;
+    }
+  }
+  .company {
+    @include respond-to(desktop-and-down) {
+      width: 100% !important;
+      flex-direction: column;
+      align-content: center;
+    }
+  }
+
+}

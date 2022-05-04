@@ -1,0 +1,90 @@
+body {
+  font-family: $font-inter !important;
+  font-weight: $fw400;
+  line-height: 1;
+  background-color: $gray-light;
+}
+
+.container-fluid {
+  overflow: hidden;
+  max-width: $site-width;
+  margin: 0 auto;
+}
+
+.btn {
+  outline: none !important;
+}
+
+.bg-gray {
+  background-color: $bg-gray;
+}
+
+.carousel-item {
+  transition: transform 2s ease, opacity 2s ease-out !important;
+}
+
+.color-gray {
+  color: $gray-light;
+}
+
+.ml-3 {
+  margin-left: 1rem !important;
+}
+
+.mr-3 {
+  margin-right: 1rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.pr-3 {
+  padding-right: 1rem !important;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  :last-child() {
+    margin-right: 0;
+  }
+}
+
+a:hover {
+  color: $blue !important;
+}
+
+a:link,
+a:visited {
+  color: $black;
+}
+
+a:focus,
+:focus {
+  outline: none;
+}
+
+a:active,
+input:active,
+select:active,
+textarea:active {
+  outline: none;
+}
+
+
+.special-0 {
+  background-color: rgba($red, 0.6);
+  color: $white;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.special-1 {
+  color: $green !important;
+}
+
+.special-2 {
+  color: $orange !important;
+}

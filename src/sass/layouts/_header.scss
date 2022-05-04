@@ -1,0 +1,51 @@
+.header {
+  font-size: 13px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: fixed;
+  top:0;
+  z-index: $z-index1;
+
+  &__search {
+    margin: 0 2rem;
+    position: relative;
+
+
+    input {
+      padding: 10px 25px;
+      border-radius: 10px;
+    }
+
+    .icon {
+      opacity: 0.8;
+      position: absolute;
+      top: 13px;
+      left: 8px;
+      outline: none;
+    }
+  }
+
+
+  &__upgrade-icon {
+    width: 28px;
+    margin-left: 15px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .btn-login {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    font-size: $f-size13;
+
+    button {
+      font-size: $f-size11;
+    }
+  }
+}

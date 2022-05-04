@@ -1,0 +1,8 @@
+mixin listAlbum(title,data)
+  h2.list-album__title= title
+  .d-flex.flex-wrap
+    each item in data
+      .list-album__image
+        a(href="#!")
+          img(src= `${item.urlImage}`, alt="photo")
+          p.description= item.description
