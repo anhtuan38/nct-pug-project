@@ -52,6 +52,16 @@ li {
   }
 }
 
+li:hover {
+  background-color: rgba($p-gray,0.1);
+  transition: all 0.3s linear;
+}
+
+img:hover {
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.5rem rgba($black, 0.3);
+  transition: all 0.3s linear;
+}
+
 a:hover {
   color: $blue !important;
 }
